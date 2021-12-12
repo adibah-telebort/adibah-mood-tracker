@@ -43,10 +43,10 @@
    			 <button type="button" class="btn-close" data-bs-dismiss="modal" />
    		 </div>
 
-   		 <div class="modal-body">
+   		<div class="modal-body">
    			 <!-- Add Modal Content here -->
              <!-- Date Input -->
-             <div class="row">
+            <div class="row">
                 <div class="col">
                     <form class="form-floating">
                          <input type="number" class="form-control" id="dayInput" bind:value={day} min="1" max="31"/>
